@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /styles/
+Allow: /scripts/
+
+# Priority pages for crawling
+Allow: /index.html
+Allow: /services.html
+Allow: /case-studies.html
+Allow: /about.html
+Allow: /contact.html
+
+# Sitemap location
+Sitemap: https://www.thebkdigital.com/sitemap.xml
+
+# Crawl delay (be respectful to search engines)
+Crawl-delay: 1
+
+# Allow all image types
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.webp
+Allow: *.svg
+
+# Disallow any admin or private directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Cache instructions for better performance
+# Allow CSS and JS files to be crawled for better understanding
+Allow: *.css
+Allow: *.js
